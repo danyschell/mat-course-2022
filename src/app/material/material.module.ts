@@ -20,8 +20,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatBadgeModule } from '@angular/material/badge';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatTableModule} from '@angular/material/table';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatTableModule } from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [],
@@ -48,7 +49,8 @@ import {MatTableModule} from '@angular/material/table';
     MatGridListModule,
     MatBadgeModule,
     MatMenuModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
 })
 export class MaterialModule { }
