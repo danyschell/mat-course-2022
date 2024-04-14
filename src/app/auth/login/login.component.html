@@ -31,7 +31,7 @@
             <mat-card-actions>
                 <button (click)="login()" color="accent" type="submit"
                     mat-raised-button>
-                    <mat-spinner *ngIf="isLoading" diameter="35"></mat-spinner>
+                    <mat-spinner *ngIf="isLoading" diameter="35" color="warn"></mat-spinner>
                     <span *ngIf="!isLoading">Login</span>
                 </button>
             </mat-card-actions>
