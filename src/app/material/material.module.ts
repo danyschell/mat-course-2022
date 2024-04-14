@@ -21,6 +21,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatBadgeModule } from '@angular/material/badge';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -46,7 +47,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatProgressSpinnerModule,
     MatGridListModule,
     MatBadgeModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule
   ],
 })
 export class MaterialModule { }
