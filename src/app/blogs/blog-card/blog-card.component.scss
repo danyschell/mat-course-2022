@@ -1,8 +1,11 @@
-.example-card {
-    margin: 2px 5px;
-    //width: 60%;
-}
+// .card-details {
+//     margin: 2px 5px;// 20px 5px;
+//     //width: 60%;
+// }
 
+mat-card-title {
+    color: white
+}
 
 .mat-card-image {
     width: 80%;
@@ -11,3 +14,12 @@
 
 
 
+.mat-card {
+    //margin: 0px 0px !important;
+    //margin: 0px 10px !important;
+    //margin: auto !important;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    width: 90%;
+    max-height: 500px;
+}
