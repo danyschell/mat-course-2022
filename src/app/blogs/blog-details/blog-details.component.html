@@ -1,0 +1,42 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Large</mat-card-subtitle>
+      <img
+        mat-card-lg-image
+        src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+      />
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    {{ longText }}
+  </mat-card-content>
+
+  <mat-card-footer>
+    <mat-chip-listbox>
+      <mat-chip-option color="primary" selected> PHP </mat-chip-option>
+      <mat-chip-option color="warn" selected> Angular </mat-chip-option>
+      <mat-chip-option color="warn" selected> NestJs </mat-chip-option>
+    </mat-chip-listbox>
+
+    <!-- <mat-chip-set
+      class="example-chip"
+      cdkDropList
+      cdkDropListOrientation="horizontal"
+      >
+      <mat-chip class="example-box" cdkDrag color="primary" selected> PHP </mat-chip>
+      <mat-chip class="example-box" cdkDrag color="accent" selected> Angular </mat-chip>
+      <mat-chip class="example-box" cdkDrag color="warn" selected> NestJs </mat-chip>
+    </mat-chip-set> -->
+
+
+
+    <!-- <mat-chip-set role="list">
+      <mat-chip role="listitem" color="primary" selected> Sugar </mat-chip>
+      <mat-chip role="listitem" color="warn" selected> Spice </mat-chip>
+      <mat-chip role="listitem" color="accent" selected> Everything Nice </mat-chip>
+    </mat-chip-set> -->
+
+  </mat-card-footer>
+</mat-card>

@@ -18,6 +18,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatChipsModule,
     MatDatepickerModule,
     MatToolbarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatGridListModule,
   ],
 })
 export class MaterialModule { }
