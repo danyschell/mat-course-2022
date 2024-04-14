@@ -1,7 +1,16 @@
 mat-grid-list {
    background-color: burlywood;
-}
 
-mat-grid-tile {
-    margin: 3px 3px !important;
+}
+ 
+ .mat-grid-tile {
+
+   margin: 6px 50px 6px 20px !important;
+   width: 100px;
  }
+ 
+//  .mat-grid-tile-content {
+
+//     margin: 30px 20px 3px 20px !important;
+ 
+//  }
