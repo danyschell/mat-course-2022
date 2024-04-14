@@ -1,9 +1,21 @@
-
 <mat-toolbar color="primary" class="flex justify-content-between">
   Ng Mat
-  
-  <a href="blogs" mat-stroked-button>Blogs</a>
-  <a href="login" mat-stroked-button>Login</a>
 
+  <a href="blogs" mat-stroked-button>Blogs</a>
+
+  <div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon  style="margin-right: 10px;" aria-hidden="false" matBadge="25" matBadgeColor="accent"
+      >notifications</mat-icon>
+    </button>
+
+    <!-- <button mat-button>Menu</button> -->
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Your friend got a new car</button>
+      <button mat-menu-item>You are tagged in a recent photo</button>
+    </mat-menu>
+
+    <a href="login" mat-stroked-button>Login</a>
+  </div>
 </mat-toolbar>
-<router-outlet>
+<router-outlet></router-outlet>
